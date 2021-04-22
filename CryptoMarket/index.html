@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoMarket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<!--navigation menu-->    
+    <div class="container-fluid sticky-top" id="nav">  
+
+        <h6 id="logo">Crypto-Market</h6>
+
+        <ul id="navbar" class="nav justify-content-center">
+            <li id="homeNav" class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li id="aboutNav" class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+
+        <span id="span"></span>
+
+    </div> 
+
+    <div id="main" class="container-fluid">
+
+        <!--title with image-->    
+        <div id="bg-img" class="container-fluid"> 
+
+            <h1 id="bigTitle" class="text-center display-4">CRYPTO - MARKET</h1>
+
+            <h2 id="smallTitle" class="text-center">Online Cryptocurrency Updates</h2>
+
+            <div id="form" class="row justify-content-center">
+                <input id="input" class="form-control text-center col-4" placeholder="Search By Symbol">
+            </div>
+            <div class="row justify-content-center">
+                <button id="search" class="btn btn-outline-light col-md-1">Search</button>
+                <button id="clearSearch" class="btn btn-outline-light col-md-1">Clear</button>
+            </div>
+
+        </div> 
+
+    <!--load gif-->    
+        <div id="load" class="container-fluid">
+            <img src="loading.gif" alt="loading">
+        </div>    
+        
+        <!--main cards area-->    
+        <div id="grid" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-2 g-lg-2"></div>
+
+    </div>
+
+    <!--about page-->    
+    <div id="about" class="row justify-content-center"></div>
+    
+</body>
+</html>

@@ -1,0 +1,179 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 0;
+    background-color: white;
+    font-family: myFont;
+
+}
+
+#logo {
+    padding: 1% 0 0 2%;
+    width: 20vw;
+    color: #EEB462;
+}
+
+#span {
+    width: 20vw;
+}
+
+.nav-link {
+    color: #525658;
+}
+
+.nav-link:hover {
+    background-color:rgb(41,47,57);
+    color: #ffffff;
+}
+
+#bg-img {
+    background-image: url(bg.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-color: #ffffff;
+    color:white;
+    padding-top: 6vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bigTitle {
+    font-family: myFont;
+    color: #EEB462;
+}
+
+#smallTitle {
+    font-family: myFont;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+#input {
+    font-weight: 250;
+    width: 40vw;
+    margin: 2%;
+}
+
+#search, #clearSearch {
+    margin: 0 2%;
+    font-weight: 200;
+    max-width: 20vw;
+}
+
+#aboutText {
+    padding: 2%;
+}
+
+#faceImg {
+    height: 25vh;
+    width: auto;
+}
+
+#hello {
+    color: #EEB462;
+    font-weight: 350;
+    margin-top: 3%;
+}
+
+#main {
+    padding: 0;
+}
+
+#grid {
+    padding: 2%;
+    margin: 0;
+}
+
+#card {
+    color: #525658;
+}
+
+#symbol {
+    font-size: 120%;
+    height: 8%;
+    font-variant-caps: small-caps;
+    font-weight: 350;
+    color: #EEB462;
+    font-family: myFont;
+
+}
+
+#coinName {
+    font-size: 70%;
+    height: 10%;
+}
+
+.form-check .form-check-input{
+    float: none;
+    box-shadow: none ;
+}
+
+.form-check-input:checked{
+    background-color: rgba(56, 59, 63, 0.76);
+    border: none;
+}
+
+.form-check-input:focus{
+    border: 1px solid rgba(0,0,0,.25);
+}
+
+.moreInfo {
+    width: 50%;
+    margin-top: 5%;
+    font-size: 70%;
+    background-color: #52565825;
+    color: #525658;
+    border-radius:0;
+}
+
+.moreInfo:hover {
+    background-color: rgb(41,47,57);
+    color: white;
+}
+
+.collapsed {
+margin-top: 8%;
+line-height: 70%;
+font-size: 70%;
+margin-bottom: 20%;
+}
+
+#price {
+    margin-top: 4%;
+    font-weight: 400;
+}
+
+#load{
+    display: flex;
+    justify-content: center;
+    height: 10em;
+}
+
+.modal-dialog {
+    width: 20em;
+    height: auto;
+}
+
+.modal-title {
+    font-size: 80%;
+}
+
+.form-check-label {
+    font-size: 95%;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Vonique\ 64\ Bold.ttf);
+    }
